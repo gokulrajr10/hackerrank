@@ -8,7 +8,6 @@ public class RemoveDuplicateElements {
         int n = sc.nextInt();
         int a[] = new int[n];
         int d[] = new int[n];
-        int s = 0;
         for(int i=0;i<n;i++){
             a[i] = sc.nextInt();
         }
