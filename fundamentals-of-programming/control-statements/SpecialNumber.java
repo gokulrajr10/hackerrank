@@ -7,7 +7,7 @@ public class SpecialNumber {
         Scanner sc = new Scanner(System.in);
         int m = sc.nextInt();
         int n = sc.nextInt();
-        for(;m<=n;m++){
+        while(m<=n){
             // System.out.println(m);
             if(m>=10 && m<=99){
                 int sum = (m/10)+(m%10);
@@ -16,6 +16,7 @@ public class SpecialNumber {
                     System.out.println(m);
                 }
             }
+            m++;
         }
         sc.close();
     }
