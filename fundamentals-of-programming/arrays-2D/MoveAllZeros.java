@@ -26,6 +26,6 @@ public class MoveAllZeros {
         for (String i : b) {
             System.out.println(i);
         }
-        
+        sc.close();
     }
 }
