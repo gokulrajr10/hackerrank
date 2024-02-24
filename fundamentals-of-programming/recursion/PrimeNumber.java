@@ -7,6 +7,7 @@ public class PrimeNumber {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int c = prime(n,n/2);
+        // n/2 - because we only have factor of the n only upto the n/2, eg. if n=10 factors=2,5 . So, n/2 is used to reduce the loop count
         if(c==0){
             System.out.println("Not a Prime Number");
         }else{
