@@ -7,8 +7,7 @@ public class ComputeNPowerA {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int a = sc.nextInt();
-        int res = power(n,a);
-        System.out.println("The value of "+ n +" power "+ a +" is "+res);
+        System.out.println("The value of "+ n +" power "+ a +" is "+power(n,a));
         sc.close();
     }
     static int power(int n, int a){
