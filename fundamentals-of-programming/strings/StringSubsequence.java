@@ -25,5 +25,6 @@ public class StringSubsequence {
 
         int result = isSub(s, t);
         System.out.println(result);
+        sc.close();
     }
 }
